@@ -9,7 +9,7 @@ const Testimonial = () => {
         <Title title='What out guests say' subTitle='Discover why deiscerning travellers consistently choose QuickStay for their exclusive and luxurious accomodations around the world.' />
         <div className="flex flex-wrap items-center gap-6 mt-20">
                 {testimonials.map((testimonial) => (
-                    <div key={testimonial.id} className="bg-white p-6 rounded-xl shadow max-w-xs">
+                    <div key={testimonial.id} className="bg-white p-6 rounded-xl shadow">
                         <div className="flex items-center gap-3">
                             <img className="w-12 h-12 rounded-full" src={testimonial.image} alt={testimonial.name} />
                             <div>
